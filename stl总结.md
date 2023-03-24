@@ -587,6 +587,9 @@ void test()
 		cout << v << " ";
 	}
 	cout << endl;
+    std::vector<int> a(3);
+	cin>>a[0]>>a[1]>>a[2];
+	sort(all(a));
 	//list 内置排序算法, 直接用方法sort
 	list<int> listData = {3,1,2};
 	listData.sort(greater<int>()); // 从大到小
